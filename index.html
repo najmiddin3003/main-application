@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+	<style>
+		.main-page {
+			background: url('./photo_2025-08-31_10-29-51.jpg');
+			background-position: center;
+			height: 100vh;
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+
+		.tugma2 {
+			background-color: transparent;
+			cursor: pointer;
+			display: flex;
+			align-items: center;
+			gap: 5px;
+			padding: 10px 20px;
+			border: 1px solid rgb(195, 193, 193);
+			color: gray;
+			border-radius: 5px;
+			transition: 0, 5s;
+		}
+
+		.tugma2:hover {
+			border: 1px solid rgb(118, 117, 117);
+		}
+
+		.tugma {
+			background-color: transparent;
+			cursor: pointer;
+			transition: 0.5s;
+			padding: 10px;
+			border: 1px solid rgb(195, 193, 193);
+			border-radius: 12px
+		}
+
+		.tugma:hover {
+			border: 1px solid rgb(118, 117, 117);
+		}
+
+		.text {
+			color: gray;
+			cursor: pointer;
+			padding: 10px;
+			border-radius: 4px;
+			transition: 1s;
+		}
+
+		.text:hover {
+			background-color: rgba(240, 241, 241, 0.348);
+			color: black;
+		}
+
+		.main-button {
+			display: flex;
+			align-items: center;
+			background: #222;
+			border-radius: 12px;
+			color: white;
+			gap: 7px;
+			padding: 5px 9px;
+			cursor: pointer;
+			text-align: start;
+			transition: 0.5s;
+		}
+
+		.main-button:hover {
+			background: #111;
+		}
+
+		.main-button p {
+			font-size: 10px;
+		}
+
+		.main-button h2,
+		.main-button p {
+			margin: 0;
+		}
+
+		.main-button i {
+			font-size: 30px;
+		}
+	</style>
+	<div class="main-page">
+
+		<div
+			style="display: flex; justify-content: space-between; align-items: center; padding-left: 70px; padding-right: 70px;">
+			<div style="display: flex; align-items: center; gap: 30px;">
+				<h4 style="cursor: pointer;">Pocket</h4>
+				<p class="text">Features</p>
+				<p class="text">Reviews</p>
+				<p class="text">Pricing</p>
+				<p class="text">FAQs</p>
+			</div>
+			<div style="display: flex; align-items: center; gap: 25px;">
+				<button class="tugma">Log in</button>
+				<button
+					style="background-color: black; cursor: pointer; color: white; padding: 10px; border: 1px solid rgb(205, 205, 205); border-radius: 5px;">Download</button>
+			</div>
+		</div>
+		<div style="padding-top: 150px;">
+			<h style="padding-left: 70px; font-size: 40px;">Invest at the perfect time.</h1>
+		</div>
+		<p style="padding-left: 70px; color: gray; font-size: 20px;">By leveraging insights from our network of industry
+			insiders, you’ll <br>
+			know exactly when to buy to maximize profit, and exactly when to <br>
+			sell to avoid painful losses.</p>
+		<div style="padding-left: 70px; display: flex; gap: 20px;">
+			<button class="main-button">
+				<div>
+					<i class="bi bi-apple"></i>
+				</div>
+				<div>
+					<p>download on the</p>
+					<h2>App Store</h2>
+				</div>
+			</button>
+			<button class="tugma2"><i style="font-size: 20px;" class="bi bi-play-circle"></i> Watch the video</button>
+		</div>
+		<h4 style="padding-left: 70px; padding-top: 80px;">As featured in</h4>
+		<div style="display: flex;align-items: center; gap: 30px; padding-left: 70px;">
+			<img src="https://pocket.tailwindui.com/_next/static/media/forbes.c4b4b0dd.svg" alt="">
+			<img src="https://pocket.tailwindui.com/_next/static/media/techcrunch.fe121d74.svg" alt="">
+			<img src="https://pocket.tailwindui.com/_next/static/media/wired.42c588dc.svg" alt="">
+			<img src="https://pocket.tailwindui.com/_next/static/media/cnn.eaae184a.svg" alt="">
+		</div>
+		<div style="display: flex;align-items: center; gap: 30px; padding-left: 70px; padding-top: 40px;">
+			<img src="https://pocket.tailwindui.com/_next/static/media/bbc.9cfc75a9.svg" alt="">
+			<img src="https://pocket.tailwindui.com/_next/static/media/cbs.aa596395.svg" alt="">
+			<img src="https://pocket.tailwindui.com/_next/static/media/fast-company.8fba32a5.svg" alt="">
+			<img src="https://pocket.tailwindui.com/_next/static/media/huffpost.eeec742f.svg" alt="">
+		</div>
+	</div>
+
+</body>
+
+</html>
